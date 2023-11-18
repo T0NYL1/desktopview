@@ -22,11 +22,11 @@ function showMusicModal() {
 
 function enableMusic() {
     document.getElementById('musicModal').style.display = 'none';
-    playm('../music/american.mp3');
-    handleVisibilityChange('apostle', () => playm('../music/american.mp3'), stopm);
-    handleVisibilityChange('shanghai', () => playm('../music/chinese.mp3'), stopm);
-    handleVisibilityChange('rome', () => playm('../music/italian.mp3'), stopm);
-    handleVisibilityChange('dubai', () => playm('../music/dubai.mp3'), stopm);
+    playm('music/american.mp3');
+    handleVisibilityChange('apostle', () => playm('music/american.mp3'), stopm);
+    handleVisibilityChange('shanghai', () => playm('music/chinese.mp3'), stopm);
+    handleVisibilityChange('rome', () => playm('music/italian.mp3'), stopm);
+    handleVisibilityChange('dubai', () => playm('music/dubai.mp3'), stopm);
 }
 
 function disableMusic() {
